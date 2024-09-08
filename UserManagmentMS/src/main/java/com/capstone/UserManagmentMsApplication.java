@@ -15,10 +15,7 @@ public class UserManagmentMsApplication  implements CommandLineRunner{
 
 	@Override
 	public void run(String... args) throws Exception {
-		User user=new User();
-		user.setEmail("amitkumarnic00hmt@gmail.com");
-		// TODO Auto-generated method stub
-		   System.out.println(user.toString());
+		
 	}
 
 }
